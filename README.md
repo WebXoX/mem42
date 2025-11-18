@@ -55,8 +55,8 @@ The project is fully configured to run with Docker.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-directory>
+    git clone https://github.com/WebXoX/mem42.git
+    cd mem42
     ```
 
 2.  **Create an environment file:**
