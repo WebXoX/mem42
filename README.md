@@ -18,7 +18,6 @@ The application operates in two main modes:
 -   **Multi-Agent Reasoning**: A team of specialized "philosopher" agents (Logic, Creativity, etc.) work in parallel on the backend to brainstorm approaches to a query.
 -   **Engram-Based Memory**: An AI "Knowledge Architect" reads entire documents to create rich, conceptual summaries (engrams) for a more meaningful knowledge base.
 -   **Advanced RAG Pipeline**: Implements a server-side, multi-step Retrieval-Augmented Generation process with real-time streaming of results to the frontend.
--   **Dockerized Environment**: The entire full-stack application is containerized with `docker-compose` for easy, one-command setup and consistent deployment.
 
 ## Architectural Overview
 
@@ -46,8 +45,6 @@ The project is fully configured to run with Docker.
 
 ### Prerequisites
 
--   [Docker](https://www.docker.com/get-started)
--   [Docker Compose](https://docs.docker.com/compose/install/)
 -   A **Qdrant instance** (e.g., via [Qdrant Cloud](https://cloud.qdrant.io/))
 -   A **Google Gemini API Key**
 
@@ -72,7 +69,6 @@ The project is fully configured to run with Docker.
 3.  **Build and run the application:**
     From the root directory, run the following command:
     ```bash
-    docker-compose up --build
     ```
     This command will build the Docker images for both the frontend and backend, and start the services.
 
