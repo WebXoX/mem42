@@ -1,0 +1,5 @@
+{
+  "name": "Mem 42",
+  "description": "A dual-mode cognitive system. First, create a knowledge base by vectorizing documents. Second, use a RAG-enabled, multi-module thinking chain to refine ideas and answer questions based on that knowledge base, generating long-term memories of the exchange.",
+  "requestFramePermissions": []
+}
